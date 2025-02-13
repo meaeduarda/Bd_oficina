@@ -55,7 +55,7 @@ CREATE TABLE Itens_OS (
 CREATE TABLE Mecanico (
     id_mecanico INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
-    especialidade VARCHAR(50)
+    especialidade VARCHAR(60)
 );
 
 -- Relacionamento Mecânicos e OS (Mecânico realiza serviços em uma OS)

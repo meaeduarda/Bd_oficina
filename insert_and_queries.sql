@@ -67,4 +67,4 @@ FROM OrdemServico os
 JOIN Itens_OS ios ON os.id_os = ios.id_os
 JOIN Servico s ON ios.id_servico = s.id_servico
 GROUP BY os.id_os
-HAVING total > 150;
+HAVING total > 145;
